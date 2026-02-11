@@ -1,4 +1,4 @@
-package com.example;
+package src.main.java.com.example;
 
 class Livro {
     private String titulo; // Variável de instância
@@ -12,14 +12,15 @@ class Livro {
     }
 
     public String getTitulo() {
-        return titulo;
+        return this.titulo;
     }
 
     public String getAutor() {
-        return autor;
+        return this.autor;
     }
 
     public int getAno() {
-        return ano;
+        return this.ano;
     }
+    
 }
